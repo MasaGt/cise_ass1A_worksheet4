@@ -9,6 +9,7 @@ const Dropdown = () => {
     return (
         <div>
             <select>
+                <option value="">Select an SE Practice </option>
                 {optionItems}
             </select>
         </div>
